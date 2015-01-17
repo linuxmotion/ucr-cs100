@@ -37,7 +37,7 @@ $ ls -a; echo hello && mkdir test || echo world; cd test
 
 3. Execute the command.
 This will require using the syscalls `fork`, `execvp`, and `waitpid`.
-Previous cs100 students created a [written tutorial](../../../tutorials/syscalls/README.md)
+Previous cs100 students created a [written tutorial](../../../textbook/assignment-help/syscalls)
 and two video tutorials
 ( [a fun cartoon tutorial](http://youtu.be/2c4ow5RoKA8)
 ; [more serious explanation](https://www.youtube.com/watch?v=xVSPv-9x3gk)).
@@ -272,7 +272,7 @@ Here is a complete list of resources created by previous cs100 students that mig
 
 * video: [a fun cartoon tutorial](http://youtu.be/2c4ow5RoKA8)
 
-* vidoe: [explanation of `fork` and `exec`](https://www.youtube.com/watch?v=xVSPv-9x3gk)
+* video: [explanation of `fork` and `exec`](https://www.youtube.com/watch?v=xVSPv-9x3gk)
 
 * video: [using bash, github, vim, and syscalls](https://izbicki.me/blog/videoguide-for-github-vim-bash.html)
 

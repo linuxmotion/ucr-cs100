@@ -70,12 +70,12 @@ On the left "/" means root directory, which is the top level directory on a syst
 
 You are a member of root group, so you have right to access and execute the file, but do not have right to change the file. 
 
-In the diagram of filesystem, you will see `home` directory which is a group directory. In this directory in the picture, there is four usernames: rick, anna, emmy and bob -- in the lab, you will see `csgrads csmajs grads` in the `home` directory. In this group of members, you don't have right access thoes directories, but for me, I only have right access to the /home/csgrads/sjin010 which is my account.
+In the diagram of filesystem, you will see `home` directory which is a group directory. In this directory in the picture, there is four usernames: rick, anna, emmy and bob -- in the lab, you will see `csgrads csmajs grads` in the `home` directory. In this group of members, you don't have right access those directories, but for me, I only have right access to the /home/csgrads/sjin010 which is my account.
 ![screenshot-sjin010 tango-18](https://cloud.githubusercontent.com/assets/9039778/5337107/992c241a-7e79-11e4-9ed3-2019375cd4fb.png)
 
 So this is how to protect the users from each other in the one server. In the personal computer, usually there is only one group and one user in the `home` directory.
 
-##Changing permisson
+##Changing permission
 
 ###umask
 
@@ -145,6 +145,7 @@ So, how do we set sticky bit to a file or directory? There is several ways to do
 ##Security
 
 When you write into a read-only file in vim, you will be noticed as warning - "this file is read-only". However, it also has a tip on the next "using `!` can override this file. " This is because, you are actually writing a temp file into system, then the system will delete the original file and create a new one. So you have permission to make the file read-only, but you don't have actual permission to change the permission setting under the system level. Many application delete and create new files when edits are made, if you directory permissions are not secure. This can be a security concern. Therefore, the permission setting will be very important on the security system.
+
 
 
 

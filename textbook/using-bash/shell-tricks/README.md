@@ -1,6 +1,6 @@
 #Using Linux command easier
 
-The 10 tricks people should know about linux command.
+The 10 tricks people should know about Linux command.
 Note: these tricks apply to bash, which is the default shell on most Linux systems.
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
@@ -57,7 +57,7 @@ The -f flag stands for 'force' referring to 'ignore nonexistent files, never pro
 
 ![Image of Help](http://buildmoneyonthenet.com/wp-content/uploads/2014/08/YOU-NEED-HELP-MY-FRIEND.jpg)
 
-It is not a shame to ask for help while using linux. Even for those experts using shell there will always be a flag or maybe a command that causes headaches into their brilliant minds. So one of the best tips we could give you is about getting the help you need.
+It is not a shame to ask for help while using linux. Even for those experts using shell, there will always be a flag or maybe a command that causes headaches into their brilliant minds. So one of the best tips we could give you is about getting the help you need.
 
 Let's pretend you want to use the 'mv' command, but you are afraid of losing files. Before you start you could type:
 
@@ -67,11 +67,11 @@ Let's pretend you want to use the 'mv' command, but you are afraid of losing fil
 
 	$ mv --h
 
-A lot of information will be displayed in the terminal, and that can be boring for you to go over everything. To simplify your life you could filter the output by piping it and using the 'grep' command. As you are afraid of losing files let's filter by "overwrite" word:
+A lot of information will be displayed in the terminal, and that can be boring for you to go over everything. To simplify your life you could filter the output by piping it and using the 'grep' command. As you are afraid of losing files, let's filter by "overwrite" word:
 
 	$ mv --help | grep overwrite
 
-Now you probably have only two sentences displayed on your screen. Now, use the commands with the appropriate flags and be happy!
+You probably have only two sentences displayed on your screen. Now, use the commands with the appropriate flags and be happy!
 
 
 Keeping the 'mv' command as example, another powerful way of getting help is through reading the manual. Often referred to as "man pages". You can find it easily on the internet. But in case some catastrophe happened with the internet and then you are no longer connected the easiest way to do it is typing:
@@ -91,7 +91,7 @@ Shell keeps track of all yours previous typed commands. Accessing and using it c
 
 	$ history
 
-It displays in your screen all your previous commands ordered by a sequential number. You can use this command just to remember something you typed days ago and now you need to run it again. Now, here is the trick. Once you know the number attached in your desired typed command or the position in the list you don't need to type it again. Just run:
+It displays on your screen all your previous commands ordered by a sequential number. You can use this command just to remember something you typed days ago and now you need to run it again. Now, here is the trick. Once you know the number attached in your desired typed command or the position in the list you don't need to type it again. Just run:
 
 	$ !622
 
@@ -128,7 +128,7 @@ HISTSIZE is related to how many commands you want to keep track of. Setting it t
 
 ![find: powerful tool](http://funnystack.com/wp-content/uploads/2014/04/Funny-Horse-44.jpg)
 
-The `find` command is used to fetch the positions of  files you want on a Unix or Linux system.  `find` will search any set of directories you specify for files that match the supplied search criteria.  You can search for files by name, owner, group, type, permissions, date, and other criteria.  The search is recursive in that it will search all subdirectories too (very powerful, right ? ).  The syntax looks like this:
+The `find` command is used to fetch the positions of files you want on a Unix or Linux system.  `find` will search any set of directories you specify for files that match the supplied search criteria.  You can search for files by name, owner, group, type, permissions, date, and other criteria.  The search is recursive in that it will search all subdirectories too (very powerful, right ? ).  The syntax looks like this:
 
     find where-to-look criteria what-to-do
 All arguments to find are optional, and there are defaults for all parts.
@@ -308,7 +308,7 @@ Pretend that you messed up an important document with a misspelled word and you 
 
 Relax, your problems are over now, you can fix it in one line using the 'sed' command!
 
-Sed stands for Stream EDitor and can be very useful when passing the right flags to it. What distinguishes it from others editors is the way it works making only one pass over the input(s) and the ability to filter text through a pipeline. Sed has several commands, but most commom people use is the substitute command: s.
+Sed stands for Stream EDitor and can be very useful when passing the right flags to it. What distinguishes it from others editors is the way it works making only one pass over the input(s) and the ability to filter text through a pipeline. Sed has several commands, but people more commonly use is the substitute command: s.
 
 If you type:
 
@@ -342,4 +342,5 @@ In vim, type:
 Or to make it global and replace all the occurrences:
 
 	:%s/wrong/right/g
+
 

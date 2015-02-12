@@ -1,4 +1,19 @@
- 0    / 100  
+0 / 100
+
+-100: no submission found
+-25: cppcheck gives warnings
+-5: no error checking for syscalls (-5 for each syscall, see checksyscalls output)
+-25: memory leak found in valgrind
+
+-25: -a flag doesn't work
+-25: -l flag doesn't work
+-25: -R flag doesn't work
+-25: file/folder parameter doesn't work
+
+-5: missing parameter combination -la, -lR, -aR, -laR
+-5: missing ordering test -R -l, -Rl, -R -a -l
+
++15: coloring works
 
 
 

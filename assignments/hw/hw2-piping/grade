@@ -1,1 +1,29 @@
-/ 100
+0 / 100
+
+Input Redirection: /25
+    [ /5] Input redirection from an existant file
+    [ /5] Input redirection from a non-existant file (should throw an error)
+    [ /5] Input redirection with space
+    [ /5] Input redirection without space
+    [ /5] Input redirection with piping
+Output Redirection: /25
+    [ /5]   Output redirection (>) to an existant file
+    [ /5]   Output redirection (>) to a non-existant file (should not throw an error)
+    [ /5]   Output redirection (>>) to an existant file
+    [ /5]   Output reidrection (>>) to a non-existant file (should not throw an error)
+    [ /2.5] Output redirection with space (> and >>)
+    [ /2.5] Output redirection without space (> and >>)
+Piping: /50
+    [ /10] Command with one pipe
+    [ /10] Command with more than one pipe
+    [ /5]  Piping with space
+    [ /5]  Piping without space
+    [ /10] Output redirection and piping
+    [ /10] Input redirection, output redirection, and piping
+Extra Credit: /40
+    [ /20] Input redirection from string
+    [ /20] Output redirection from file descriptors
+
+Total: 0/100
+
+No piping.script file present.

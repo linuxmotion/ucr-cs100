@@ -1,29 +1,33 @@
-0 / 100
+3.5 / 100
 
-Input Redirection: /25
-    [ /5] Input redirection from an existant file
-    [ /5] Input redirection from a non-existant file (should throw an error)
-    [ /5] Input redirection with space
-    [ /5] Input redirection without space
-    [ /5] Input redirection with piping
-Output Redirection: /25
-    [ /5]   Output redirection (>) to an existant file
-    [ /5]   Output redirection (>) to a non-existant file (should not throw an error)
-    [ /5]   Output redirection (>>) to an existant file
-    [ /5]   Output reidrection (>>) to a non-existant file (should not throw an error)
-    [ /2.5] Output redirection with space (> and >>)
-    [ /2.5] Output redirection without space (> and >>)
-Piping: /50
-    [ /10] Command with one pipe
-    [ /10] Command with more than one pipe
-    [ /5]  Piping with space
-    [ /5]  Piping without space
-    [ /10] Output redirection and piping
-    [ /10] Input redirection, output redirection, and piping
-Extra Credit: /40
-    [ /20] Input redirection from string
-    [ /20] Output redirection from file descriptors
+Input Redirection: 10/25
+    [5/5] Input redirection from an existant file
+    [0/5] Input redirection from a non-existant file (should throw an error)
+    [5/5] Input redirection with space
+    [0/5] Input redirection without space
+    [0/5] Input redirection with piping
+Output Redirection: 13.5/25
+    [3/5]   Output redirection (>) to an existant file
+        -2 Does not appear to have completely overwritten the target file.
+    [5/5]   Output redirection (>) to a non-existant file (should not throw an error)
+    [3/5]   Output redirection (>>) to an existant file
+        -2 The output appears to have been appended to the file twice.
+    [0/5]   Output reidrection (>>) to a non-existant file (should not throw an error)
+    [2.5/2.5] Output redirection with space (> and >>)
+    [0/2.5] Output redirection without space (> and >>)
+Piping: 0/50
+    [0/10] Command with one pipe
+    [0/10] Command with more than one pipe
+    [0/5]  Piping with space
+    [0/5]  Piping without space
+    [0/10] Output redirection and piping
+    [0/10] Input redirection, output redirection, and piping
+Extra Credit: 0/40
+    [0/20] Input redirection from string
+    [0/20] Output redirection from file descriptors
 
-Total: 0/100
+-20: Regrade penalty
+
+Total: 3.5/100
 
 No piping.script file present.

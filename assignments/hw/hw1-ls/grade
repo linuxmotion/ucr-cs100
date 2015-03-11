@@ -1,19 +1,27 @@
-0 / 100
+95 / 100
 
--100: no submission found
--25: cppcheck gives warnings
--5: no error checking for syscalls (-5 for each syscall, see checksyscalls output)
--25: memory leak found in valgrind
+-15: no error checking for syscalls:
+file: [src/DirUtils.h]
+  lines with syscalls:
+  
+  034:  ESC[1;31mESC[K get_current_dir_name()ESC[mESC[K
+  104:  ESC[1;31mESC[K(lstat(path.c_str()ESC[mESC[K
+  106:  ESC[1;32mESC[Kperror( + errno)ESC[mESC[K;
+  111:  ESC[1;31mESC[K getpwuid(stats.st_uid)ESC[mESC[K
+  112:  ESC[1;31mESC[K getgrgid(stats.st_gid)ESC[mESC[K
 
--25: -a flag doesn't work
--25: -l flag doesn't work
--25: -R flag doesn't work
--25: file/folder parameter doesn't work
+summary:
+  number of syscalls... 4
+  number of perror..... 1
+  grade modifier....... -15
+<stdin>:30:1: warning: "log" redefined
+<stdin>:24:1: warning: this is the location of the previous definition
+<stdin>:30:1: warning: "log" redefined
+<stdin>:24:1: warning: this is the location of the previous definition
 
--5: missing parameter combination -la, -lR, -aR, -laR
+
 -5: missing ordering test -R -l, -Rl, -R -a -l
 
 +15: coloring works
-
 
 

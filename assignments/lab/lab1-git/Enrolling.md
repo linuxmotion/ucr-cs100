@@ -23,7 +23,7 @@ Return to http://github.com/mikeizbicki/ucr-cs100.  On the right hand side of th
 
 Click this button.  At the top of the page will be a green button labeled `new issue`.  Whenever you have a question with the course, you should NOT email the instructors directly.  Instead, you should submit an issue here.  This will notify following the project (both instructors and students) about your question, and anyone can answer it.  We will be using this system for communicating instead of piazza.
 
-### forking your repo
+### forking your repo 
 
 Return to http://github.com/mikeizbicki/ucr-cs100.  In the top right corner of the page is a button labeled `fork`:
 

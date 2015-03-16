@@ -7,19 +7,19 @@ At the same time we will be establishing a git workflow that keeps our local rep
 text/path/name
 
 I assume that you have already forked your repository from mikeizbikis github.
-If you have not, there are instruction [Here](Enrolling.md).
+If you have not, here are instruction to [fork](Enrolling.md#forking-your-repo-) the repository.
 Start by cloning the class repository from your student github account.
 From there checkout the `2015winter` branch, then create and checkout a branch named `2015winter-student`.
 
 ##The stream flows both ways
 
-Now that we have cloned the git repository we should probably set it up for `pushing` and `pulling` from a remote that has the changes we want.
+Now that we have cloned the git repository we should set it up for `pushing` and `pulling` from a remote location.
 We will use the class project hosted on github as the main class repository. 
 The url is https://github.com/mikeizbicki/ucr-cs100.git 
 
 ###I think the stream is flowing away from me
 
-Since our repository was cloned from the URL above, we can now upload our changes to github using 'git push'.
+Since we cloned the repository from the URL above, we can upload our changes to github using `git push`.
 This uploads our version of the repository to a server online or within a local network.
 Doing this allows others to see our changes as well as make changes based off of those changes.
     
